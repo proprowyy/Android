@@ -454,12 +454,10 @@ public class Camera2BasicFragment extends Fragment
 
     private static final String MYACTION="com.seven.broadcast";
     private Intent startIntent=null;
-
-
-
         @Override
     public void onResume() {
         super.onResume();
+
         startBackgroundThread();
         startIntent = new Intent(getActivity(), MyService.class);
         getActivity().startService(startIntent);
@@ -979,9 +977,13 @@ public class Camera2BasicFragment extends Fragment
         public void run() {
             ByteBuffer buffer = mImage.getPlanes()[0].getBuffer();
             byte[] bytes = new byte[buffer.remaining()];
+
             buffer.get(bytes);
+            HttpSendData Out=null;
             FileOutputStream output = null;
             try {
+                Out=new HttpSendData();
+                Out.SendJpg(bytes);
                 output = new FileOutputStream(mFile);
                 output.write(bytes);
             } catch (IOException e) {

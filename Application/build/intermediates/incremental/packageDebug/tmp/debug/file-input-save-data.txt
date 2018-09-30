@@ -1,10 +1,10 @@
 #Internal package file, do not edit.
-#Sat Sep 29 11:10:32 CST 2018
-1.base=C\:\\Users\\way1s\\Downloads\\android-Camera2Basic-master\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\828
+#Sun Sep 30 17:26:32 CST 2018
+1.base=C\:\\Users\\way1s\\Downloads\\android-Camera2Basic-master\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\1696
 2.path=classes.dex
 0.baseType=DIRECTORY
 3.baseType=DIRECTORY
-2.base=C\:\\Users\\way1s\\Downloads\\android-Camera2Basic-master\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\829
+2.base=C\:\\Users\\way1s\\Downloads\\android-Camera2Basic-master\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\1695
 3.set=DEX
 2.set=DEX
 1.baseType=DIRECTORY
@@ -12,8 +12,8 @@
 count=4
 1.set=DEX
 0.path=classes.dex
-3.base=C\:\\Users\\way1s\\Downloads\\android-Camera2Basic-master\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\830
+3.base=C\:\\Users\\way1s\\Downloads\\android-Camera2Basic-master\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\1698
 0.set=DEX
-0.base=C\:\\Users\\way1s\\Downloads\\android-Camera2Basic-master\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\831
+0.base=C\:\\Users\\way1s\\Downloads\\android-Camera2Basic-master\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\1697
 2.baseType=DIRECTORY
 1.path=classes.dex
