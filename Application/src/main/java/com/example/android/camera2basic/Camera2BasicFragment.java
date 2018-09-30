@@ -970,37 +970,21 @@ public class Camera2BasicFragment extends Fragment
         ImageSaver(Image image, File file) {
             mImage = image;
             mFile = file;
-          //  Log.d(TAG, "ImageSaver:"+file);
         }
-
         @Override
         public void run() {
             ByteBuffer buffer = mImage.getPlanes()[0].getBuffer();
             byte[] bytes = new byte[buffer.remaining()];
-
             buffer.get(bytes);
-            HttpSendData Out=null;
-            FileOutputStream output = null;
-            try {
-                Out=new HttpSendData();
-                Out.SendJpg(bytes);
-                output = new FileOutputStream(mFile);
-                output.write(bytes);
-            } catch (IOException e) {
-                e.printStackTrace();
-            } finally {
-                mImage.close();
-                if (null != output) {
-                    try {
-                        output.close();
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                }
-            }
+            HttpSendData Out = null;
+            Out = new HttpSendData();
+            Out.SendJpg(bytes);
+            mImage.close();
         }
 
     }
+
+
 
     /**
      * Compares two {@code Size}s based on their areas.

@@ -10,8 +10,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0d26564-e94a-490a-9c1e-95de7c4b507d" name="Default" comment="         The first version, complete functions as follows.&#10;   &#10;      1. Shooting Preview    &#10;      2. Save to disk &#10;      3. Network control">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/HttpSendData.java" />
+    <list default="true" id="d0d26564-e94a-490a-9c1e-95de7c4b507d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
@@ -20,12 +19,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/build-info/debug/build-info.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/build-info/debug/build-info.xml" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$6.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$6.class" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$7.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$7.class" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$8.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$8.class" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$CompareSizesByArea.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$CompareSizesByArea.class" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$ConfirmationDialog$1.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$ConfirmationDialog$1.class" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$ConfirmationDialog$2.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$ConfirmationDialog$2.class" />
@@ -33,8 +28,6 @@
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$ErrorDialog$1.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$ErrorDialog$1.class" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$ErrorDialog.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$ErrorDialog.class" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$ImageSaver.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment$ImageSaver.class" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/classes/debug/com/example/android/camera2basic/Camera2BasicFragment.class" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$6.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$6.class" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$7.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$7.class" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$8.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$8.class" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$CompareSizesByArea.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental-verifier/debug/com/example/android/camera2basic/Camera2BasicFragment$CompareSizesByArea.class" />
@@ -58,208 +51,18 @@
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/+i0csrNfoJUVkp8PzbEy3pThOcg=" afterPath="$PROJECT_DIR$/Application/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/+i0csrNfoJUVkp8PzbEy3pThOcg=" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/instant-run-apk/debug/Application-debug.apk" afterPath="$PROJECT_DIR$/Application/build/intermediates/instant-run-apk/debug/Application-debug.apk" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_0.apk" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_0.apk" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Application/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/Application/build/intermediates/res/debug/resources-debug.ap_" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_1.apk" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_1.apk" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_2.apk" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_2.apk" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_3.apk" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_3.apk" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_5.apk" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_5.apk" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_8.apk" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_8.apk" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_4.apk" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_4.apk" />
+      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_6.apk" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_6.apk" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_9.apk" afterPath="$PROJECT_DIR$/Application/build/intermediates/split-apk/debug/slices/slice_9.apk" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/895.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/896.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/897.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/898.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/compat/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/compat/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/compat/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/compat/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/compat/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/compat/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/compat/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/compat/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/compat/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/compat/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/compat/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/compat/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/fragment/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/fragment/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/fragment/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/fragment/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/fragment/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/fragment/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/fragment/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/fragment/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/fragment/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/fragment/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/fragment/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/fragment/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/mediacompat/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/mediacompat/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/mediacompat/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/mediacompat/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/mediacompat/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/mediacompat/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/mediacompat/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/mediacompat/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/mediacompat/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/mediacompat/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/mediacompat/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/mediacompat/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/v7/cardview/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/v7/cardview/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/v7/cardview/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/v7/cardview/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/v7/cardview/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/android/support/v7/cardview/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/901/com/android/tools/ir/dummy/slice_0.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/902/android/arch/lifecycle/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/902/com/android/tools/ir/dummy/slice_1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/coreutils/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/coreutils/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/coreutils/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/coreutils/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/coreutils/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/coreutils/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/coreutils/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/coreutils/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/coreutils/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/coreutils/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/coreutils/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/coreutils/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/v4/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/v4/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/v4/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/v4/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/v4/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/v4/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/v4/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/v4/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/v4/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/v4/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/v4/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/v4/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/v7/appcompat/R$anim.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/v7/appcompat/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/v7/appcompat/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/v7/appcompat/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/v7/appcompat/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/v7/appcompat/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/v7/appcompat/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/v7/appcompat/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/v7/appcompat/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/v7/appcompat/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/v7/appcompat/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/v7/appcompat/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/android/support/v7/appcompat/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/903/com/android/tools/ir/dummy/slice_2.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/android/support/graphics/drawable/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/android/support/graphics/drawable/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/android/support/graphics/drawable/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/android/support/graphics/drawable/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/android/support/graphics/drawable/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/android/support/graphics/drawable/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/android/support/graphics/drawable/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/android/support/graphics/drawable/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/android/support/graphics/drawable/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/android/support/graphics/drawable/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/android/support/graphics/drawable/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/android/support/graphics/drawable/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/android/tools/ir/dummy/slice_3.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/AutoFitTextureView.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/BuildConfig.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/Camera2BasicFragment$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/Camera2BasicFragment$2.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/Camera2BasicFragment$3.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/Camera2BasicFragment$4.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/Camera2BasicFragment$5.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/Camera2BasicFragment$6.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/Camera2BasicFragment$7.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/Camera2BasicFragment$8.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/Camera2BasicFragment$CompareSizesByArea.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/Camera2BasicFragment$ConfirmationDialog$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/Camera2BasicFragment$ConfirmationDialog$2.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/Camera2BasicFragment$ConfirmationDialog.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/Camera2BasicFragment$ErrorDialog$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/Camera2BasicFragment$ErrorDialog.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/Camera2BasicFragment$ImageSaver.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/Camera2BasicFragment.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/CameraActivity.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/MyService$1.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/MyService.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/NetCmdServer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/R$anim.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/904/com/example/android/camera2basic/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/905/com/android/tools/ir/dummy/slice_4.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/906/com/android/tools/ir/dummy/slice_5.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/907/android/support/v13/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/907/android/support/v13/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/907/android/support/v13/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/907/android/support/v13/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/907/android/support/v13/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/907/android/support/v13/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/907/android/support/v13/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/907/android/support/v13/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/907/android/support/v13/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/907/android/support/v13/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/907/android/support/v13/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/907/android/support/v13/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/907/com/android/tools/ir/dummy/slice_6.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/908/android/support/coreui/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/908/android/support/coreui/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/908/android/support/coreui/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/908/android/support/coreui/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/908/android/support/coreui/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/908/android/support/coreui/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/908/android/support/coreui/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/908/android/support/coreui/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/908/android/support/coreui/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/908/android/support/coreui/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/908/android/support/coreui/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/908/android/support/coreui/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/908/com/android/tools/ir/dummy/slice_7.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/909/android/support/graphics/drawable/animated/R$attr.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/909/android/support/graphics/drawable/animated/R$bool.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/909/android/support/graphics/drawable/animated/R$color.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/909/android/support/graphics/drawable/animated/R$dimen.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/909/android/support/graphics/drawable/animated/R$drawable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/909/android/support/graphics/drawable/animated/R$id.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/909/android/support/graphics/drawable/animated/R$integer.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/909/android/support/graphics/drawable/animated/R$layout.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/909/android/support/graphics/drawable/animated/R$string.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/909/android/support/graphics/drawable/animated/R$style.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/909/android/support/graphics/drawable/animated/R$styleable.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/909/android/support/graphics/drawable/animated/R.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/909/com/android/tools/ir/dummy/slice_8.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/910/com/android/tools/ir/dummy/slice_9.dex" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/817/classes.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/818/classes.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/819/classes.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/820/classes.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/821/classes.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/822/classes.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/823/classes.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/824/classes.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/825/classes.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/826/classes.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/827/classes.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/828/classes.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/829/classes.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/830/classes.dex" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/831/classes.dex" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/dexMerger/debug/__content__.json" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/camera2basic/Camera2BasicFragment$6.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/camera2basic/Camera2BasicFragment$6.class" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/camera2basic/Camera2BasicFragment$7.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/camera2basic/Camera2BasicFragment$7.class" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/camera2basic/Camera2BasicFragment$8.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/camera2basic/Camera2BasicFragment$8.class" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/camera2basic/Camera2BasicFragment$CompareSizesByArea.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/camera2basic/Camera2BasicFragment$CompareSizesByArea.class" />
@@ -271,7 +74,6 @@
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/camera2basic/Camera2BasicFragment$ImageSaver.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/camera2basic/Camera2BasicFragment$ImageSaver.class" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/camera2basic/Camera2BasicFragment.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRun/debug/0/com/example/android/camera2basic/Camera2BasicFragment.class" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/3/buildId.txt" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/3/buildId.txt" />
-      <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/3/com/example/android/camera2basic/Camera2BasicFragment$6.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/3/com/example/android/camera2basic/Camera2BasicFragment$6.class" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/3/com/example/android/camera2basic/Camera2BasicFragment$7.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/3/com/example/android/camera2basic/Camera2BasicFragment$7.class" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/3/com/example/android/camera2basic/Camera2BasicFragment$8.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/3/com/example/android/camera2basic/Camera2BasicFragment$8.class" />
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/3/com/example/android/camera2basic/Camera2BasicFragment$CompareSizesByArea.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/3/com/example/android/camera2basic/Camera2BasicFragment$CompareSizesByArea.class" />
@@ -284,6 +86,7 @@
       <change beforePath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/3/com/example/android/camera2basic/Camera2BasicFragment.class" afterPath="$PROJECT_DIR$/Application/build/intermediates/transforms/instantRunSlicer/debug/3/com/example/android/camera2basic/Camera2BasicFragment.class" />
       <change beforePath="$PROJECT_DIR$/Application/build/outputs/apk/debug/Application-debug.apk" afterPath="$PROJECT_DIR$/Application/build/outputs/apk/debug/Application-debug.apk" />
       <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Camera2BasicFragment.java" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Camera2BasicFragment.java" />
+      <change beforePath="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/HttpSendData.java" afterPath="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/HttpSendData.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -322,7 +125,7 @@
       <file leaf-file-name="MyService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/MyService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
+            <state relative-caret-position="444">
               <caret line="39" column="49" lean-forward="false" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -343,11 +146,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Camera2BasicFragment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Camera2BasicFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Camera2BasicFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="985" column="0" lean-forward="false" selection-start-line="985" selection-start-column="0" selection-end-line="985" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="748" column="32" lean-forward="false" selection-start-line="748" selection-start-column="32" selection-end-line="748" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -383,11 +186,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpSendData.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HttpSendData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/HttpSendData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-736">
-              <caret line="14" column="63" lean-forward="false" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+            <state relative-caret-position="1019">
+              <caret line="60" column="29" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -440,7 +243,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>onSurfaceTextureAvailable</find>
       <find>mTextureView</find>
       <find>mPreviewSize</find>
       <find>Camera2BasicFragment</find>
@@ -467,9 +269,10 @@
       <find>setUpCameraOutputs</find>
       <find>openCamera</find>
       <find>getActivity</find>
-      <find>HttpSendData</find>
       <find>reponse</find>
       <find>debugShowFPS</find>
+      <find>HttpSendData</find>
+      <find>SendJpg</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2361,8 +2164,8 @@
         <option value="$PROJECT_DIR$/Application/src/main/res/layout-land/fragment_camera2_basic.xml" />
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/MyService.java" />
         <option value="$PROJECT_DIR$/Application/src/main/res/layout/fragment_camera2_basic.xml" />
-        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Camera2BasicFragment.java" />
         <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/HttpSendData.java" />
+        <option value="$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Camera2BasicFragment.java" />
       </list>
     </option>
   </component>
@@ -2390,8 +2193,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -2419,7 +2223,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2620,7 +2423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538191709637</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="    Http jpg file transfer .">
+      <created>1538300715937</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1538300715937</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2635,25 +2445,26 @@
   <component name="ToolWindowManager">
     <frame x="1358" y="-260" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21440823" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.49319214" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21340781" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.49093816" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14864865" sideWeight="0.50338984" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46256983" sideWeight="0.50959486" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761577" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46256983" sideWeight="0.4904051" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46256983" sideWeight="0.5117271" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273743" sideWeight="0.49253732" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46256983" sideWeight="0.48827294" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3327616" sideWeight="0.49016643" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39106146" sideWeight="0.46535182" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39106146" sideWeight="0.45682302" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.055975795" sideWeight="0.49661016" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16471216" sideWeight="0.49661016" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28268155" sideWeight="0.48081023" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34362933" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39664805" sideWeight="0.48134327" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39664805" sideWeight="0.4749467" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14864865" sideWeight="0.50338984" order="2" side_tool="true" content_ui="tabs" />
@@ -2665,7 +2476,6 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761577" sideWeight="0.4924357" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -2702,43 +2512,32 @@
     <MESSAGE value="NO2.add NetWork Control" />
     <MESSAGE value="end" />
     <MESSAGE value="         The first version, complete functions as follows.&#10;   &#10;      1. Shooting Preview    &#10;      2. Save to disk &#10;      3. Network control" />
-    <option name="LAST_COMMIT_MESSAGE" value="         The first version, complete functions as follows.&#10;   &#10;      1. Shooting Preview    &#10;      2. Save to disk &#10;      3. Network control" />
+    <MESSAGE value="    Http jpg file transfer ." />
+    <option name="LAST_COMMIT_MESSAGE" value="    Http jpg file transfer ." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/HttpSendData.java</url>
-          <line>18</line>
+          <line>59</line>
           <properties />
-          <option name="timeStamp" value="59" />
+          <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/HttpSendData.java</url>
-          <line>20</line>
+          <line>56</line>
           <properties />
-          <option name="timeStamp" value="60" />
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/HttpSendData.java</url>
-          <line>24</line>
+          <line>57</line>
           <properties />
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/HttpSendData.java</url>
-          <line>17</line>
-          <properties />
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/HttpSendData.java</url>
-          <line>13</line>
-          <properties field="TAG" class="com.example.android.camera2basic.HttpSendData" />
-          <option name="timeStamp" value="57" />
+          <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="71" />
+      <option name="time" value="75" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2959,6 +2758,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2966,6 +2766,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2973,6 +2774,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2980,6 +2782,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2987,6 +2790,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3070,30 +2874,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/MyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="39" column="49" lean-forward="false" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/AutoFitTextureView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
           <caret line="56" column="5" lean-forward="false" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-27/android/os/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -3106,21 +2890,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Camera2BasicFragment.java">
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-27/android/os/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="985" column="0" lean-forward="false" selection-start-line="985" selection-start-column="0" selection-end-line="985" selection-end-column="0" />
+        <state relative-caret-position="163">
+          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/MyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="39" column="49" lean-forward="false" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/HttpSendData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-736">
-          <caret line="14" column="63" lean-forward="false" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+        <state relative-caret-position="1019">
+          <caret line="60" column="29" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/src/main/java/com/example/android/camera2basic/Camera2BasicFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="748" column="32" lean-forward="false" selection-start-line="748" selection-start-column="32" selection-end-line="748" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
